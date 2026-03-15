@@ -95,3 +95,8 @@ export const Checkout = () => {
     </Transition.Root>
   );
 };
+
+// BlastMind Test: Added error handling for checkout failures
+// Webhook test update
+// BlastMind test 1773575030
+// Real BlastMind test 1773575157
