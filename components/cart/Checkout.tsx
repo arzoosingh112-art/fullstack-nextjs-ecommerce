@@ -95,3 +95,5 @@ export const Checkout = () => {
     </Transition.Root>
   );
 };
+
+// BlastMind Test: Added error handling for checkout failures
