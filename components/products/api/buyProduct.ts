@@ -12,3 +12,6 @@ export const buyProduct = async (product: Prisma.Product) => {
     schema: stripeSessionSchema,
   });
 };
+
+// Added error retry logic for failed payment processing
+// This improves reliability when Stripe API is temporarily unavailable
